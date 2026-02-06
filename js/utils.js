@@ -5,7 +5,7 @@ export function showToast(message, type = "error") {
   toast.innerHTML = `
     <div>${type === "error" ? "⚠️" : "✅"}</div>
     <div><strong>${type === "error" ? "Atenção" : "Sucesso"}</strong><br>${message}</div>
-  `;
+  `; 
   container.appendChild(toast);
   setTimeout(() => toast.remove(), 4000);
 }

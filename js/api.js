@@ -1,4 +1,4 @@
-import { scriptURL, maxVagas, opcoes } from "./config.js";
+import { scriptURL, maxVagas, opcoes } from "./config.js"; 
 
 export function carregarEstados() {
   return fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados?orderBy=nome")

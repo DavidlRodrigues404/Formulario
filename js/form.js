@@ -1,6 +1,6 @@
 import { validarCPF, showToast } from "./utils.js";
 import { enviarFormulario } from "./api.js";
-
+ 
 export function configurarFormulario() {
   const form = document.getElementById("formCadastro");
   const btn = document.getElementById("btnEnviar");

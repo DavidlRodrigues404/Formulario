@@ -1,7 +1,7 @@
 import { carregarEstados, carregarCidades, carregarVagas } from "./api.js";
 import { configurarFormulario } from "./form.js";
 import { opcoes, maxVagas } from "./config.js";
-
+ 
 const estado = document.getElementById("estado");
 const cidade = document.getElementById("cidade");
 
